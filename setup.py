@@ -24,10 +24,10 @@ setup(
     zip_safe=False,
     install_requires=[
         'packaging',
-        'twisted>=17.9',
-        'scrapy>=2.0.0',
+        'twisted==22.10.0',
+        'scrapy==2.8.0',
         'setuptools',
-        'w3lib',
+        'w3lib==2.1.1',
         'zope.interface',
     ],
     extras_require={
